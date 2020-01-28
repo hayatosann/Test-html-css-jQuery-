@@ -1,0 +1,46 @@
+.section1{
+  height:100vh;
+  width: 100vw;
+  background-image: url(./cebu1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header{
+  height:140px;
+  width:100vw;
+  background-color: aqua;
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: flex-end; */
+  align-items: center;
+  justify-content: space-between;
+}
+.left_header{
+  padding:40px;
+  width:200px;
+}
+.right_header{
+  width : calc(100vw - 200px) ;
+  text-align: right;
+  display:flex;
+  justify-content: flex-end;
+}
+.box{
+  padding:15px;
+}
+
+.box_word{
+  height:calc(100vh - 140px);
+  text-align:center;
+  display: flex;
+  
+  justify-content: center;
+  flex-direction: column;
+}
+
+.word1{
+  font-size:140px;
+}
+.word2{
+  padding-left:40px;
+}
