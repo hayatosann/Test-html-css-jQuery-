@@ -111,7 +111,6 @@
 
 .img_box1{
   height:70%;
-  background-color: black;
   margin-bottom: 10px;
   background-image: url(./cebu1.jpeg);
   background-repeat: no-repeat;
@@ -120,7 +119,6 @@
 }
 .img_box2{
   height:30%;
-  background-color: yellow;
   background-image: url(./cebu1.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -128,7 +126,6 @@
 }
 .img_box3{
   height:100%;
-  background-color: black;
   padding-bottom: 10px;
   background-image: url(./cebu1.jpeg);
   background-repeat: no-repeat;
@@ -137,7 +134,6 @@
 }
 .img_box4{
   height:30%;
-  background-color: green;
   margin-bottom:10px;
   background-image: url(./cebu1.jpeg);
   background-repeat: no-repeat;
@@ -146,7 +142,6 @@
 }
 .img_box5{
   height:70%;
-  background-color: black;
   background-image: url(./cebu1.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -154,7 +149,6 @@
 }
 .img_box6{
   height:60%;
-  background-color:blue;
   margin-bottom:10px;
   background-image: url(./cebu1.jpeg);
   background-repeat: no-repeat;
@@ -163,11 +157,71 @@
 }
 .img_box7{
   height:40%;
-  background-color: black;
   background-image: url(./cebu1.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   border: 0.5px solid;
 }
 
+.section4{
+  height:100vh;
+  width:100vw;
+  background-color:#333030;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
+
+.topic2{
+  color:white;
+  font-size:60px;
+  
+}
+
+.frame{
+  display: flex;
+}
+
+.frame_box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding:40px;
+  flex-wrap: wrap;
+}
+
+.frame_box_sentence{
+  font-size:18px;
+  color:white;
+  /* text-align: center; */
+  margin-top: 25px;
+  width:100%;
+}
+
+.frame_box_img1{
+  background-image: url(./cebu1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:280px;
+  width:350px;
+
+}
+
+.frame_box_img2{
+  background-image: url(./cebu1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:280px;
+  width:350px;
+}
+
+.frame_box_img3{
+  background-image: url(./cebu1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:280px;
+  width:350px;
+}
