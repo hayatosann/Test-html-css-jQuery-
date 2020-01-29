@@ -225,3 +225,74 @@
   height:280px;
   width:350px;
 }
+
+/* section5 */
+
+.section5{
+  height:70vh;
+  width:100vw;
+  display: flex;
+}
+
+.map{
+  width: 50%;
+  background-image: url(./cebu1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.questionnair{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:50%;
+}
+
+.topic3{
+  padding:30px;
+  font-size:60px;
+}
+
+.form{
+  padding:30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form_area{
+  padding:10px;
+}
+
+.button2{
+  padding:20px;
+  color:rgba(255, 255, 255, 0.308);
+  background-color: black;
+  padding:10px;
+  border-radius: 20px;
+  text-align: center;
+  font-size:16px;
+  width:90%
+}
+
+/* //footer */
+.footer{
+  height:30vh;
+  width:100vw;
+  background-color: #333030;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.inc_information{
+  font-size:25px;
+}
+
+.icon{
+  position: absolute;
+  right:10px;
+}
