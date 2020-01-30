@@ -7,10 +7,13 @@
   <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.7.0/build/reset/reset-min.css">
   <link rel="stylesheet" href="style.css">
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <script defer src="./app.js"></script>
   <title>Document</title>
 </head>
 <body>
-  <script src="app.js"></script>
+  <!-- <script src="app.js"></script> -->
 
  <main class="container">
    <!-- 1要素目 -->
@@ -27,8 +30,9 @@
        </div>
      </div>
      <div class="box_word">
-      <div class="word1">Welcome!</div>
-      <div class="word2">To Cebu</div>
+      
+      <div class="animated fadeIn slower">Welcome!</div>
+      <div class="animated fadeIn slower">To Cebu</div>
      </div>
      
    </section>
@@ -50,7 +54,7 @@
        <button class="button1" type="button">View More</button>
      </div>
      <!-- 2要素目の右側ゾーン -->
-     <div class="picture">
+     <div class="cp_imghover cp_zoomin">
        <img src="./cebu1.jpeg" alt="">
      </div>
    </section>
@@ -137,11 +141,12 @@
             <div class="form_area">
                 <textarea name="content" rows="5" cols="39" placeholder="message"></textarea>
             </div>
-            <button class="button2" type="submit">submit</button>
+            <div class="modalBtn">submit</div>
        </form>
      </div>
    </section>
  </main>
+
 
   <!-- footer -->
  <footer class="footer">
@@ -151,6 +156,27 @@
   </div>
  </footer>
 
+
+ <!-- モーダルウィンドウ -->
+ <div class="overlay"></div>
+ <div class="modal">
+   <h2 class="modalTxt">モーダルを表示</h2>
+   <div class="close">閉じる</div>
+ </div>
+
+<!-- 実験 -->
+ <div class="viewer">
+  <ul>
+  <li><img src="./1.jpg" width="400" height="300" alt=""></li>
+  <li><img src="./2.jpg" width="400" height="300" alt=""></li>
+  <li><img src="./3.jpg" width="400" height="300" alt=""></li>
+  <li><img src="./4.jpg" width="400" height="300" alt=""></li>
   
+  </ul>
+  </div>
+
+
+
+
 </body>
 </html>
