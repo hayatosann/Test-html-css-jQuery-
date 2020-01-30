@@ -19,13 +19,7 @@ $('.left_header').on('mouseleave', function() {
   $(this).css('opacity', 1);
 });
 
-// // modal window
-// ('.button2').on('click', function(){
-//   $('#modalArea').fadeIn();
-// });
-// $('#closeModal , #modalBg').on('click',function(){
-//   $('#modalArea').fadeOut();
-// });
+
 
 $(function() {
   //モーダルを開く
