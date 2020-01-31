@@ -90,6 +90,7 @@ a {
   text-align: right;
   display:flex;
   justify-content: flex-end;
+  margin-right: 10px;
 }
 .box{
   padding:15px;
@@ -109,7 +110,7 @@ a {
 
 /* animate.css */
 .fadeIn{
-  font-size:140px;
+  font-size:50px;
   color:white;
   animation-delay: 3s;
 }
@@ -117,7 +118,6 @@ a {
 
 /* section2 */
 .section2{
-  height:100vh;
   width:100vw;
   display: flex;
   align-items: center;
@@ -319,7 +319,7 @@ a {
 
 #topic2{
   color:white;
-  font-size:60px;
+  font-size:40px;
 }
 
 .frame{
@@ -331,8 +331,8 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding:40px;
   flex-wrap: wrap;
+  padding:5px;
 }
 
 .frame_box_sentence{
@@ -340,15 +340,15 @@ a {
   color:white;
   /* text-align: center; */
   margin-top: 25px;
-  width:100%;
+  width:250px;
 }
 
 .frame_box_img1{
   background-image: url(./cebu1.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  height:280px;
-  width:350px;
+  height: 260px;
+  width: 250px;
   transition: all 0.5s;
 }
 
@@ -361,8 +361,8 @@ a {
   background-image: url(./cebu1.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  height:280px;
-  width:350px;
+  height: 260px;
+  width: 250px;
   transition: all 0.5s;
 }
 .frame_box_img2:hover {
@@ -374,8 +374,8 @@ a {
   background-image: url(./cebu1.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  height:280px;
-  width:350px;
+  height: 260px;
+  width: 250px;
   transition: all 0.5s;
 }
 .frame_box_img3:hover {
