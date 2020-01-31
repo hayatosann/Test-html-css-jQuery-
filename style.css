@@ -314,12 +314,15 @@ a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  
 }
 
 
 #topic2{
   color:white;
   font-size:40px;
+  margin-bottom:50px;
+  
 }
 
 .frame{
@@ -332,7 +335,7 @@ a {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  padding:5px;
+  padding:10px;
 }
 
 .frame_box_sentence{
@@ -340,7 +343,7 @@ a {
   color:white;
   /* text-align: center; */
   margin-top: 25px;
-  width:250px;
+  width:190px;
 }
 
 .frame_box_img1{
