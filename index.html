@@ -1,48 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.7.0/build/reset/reset-min.css">
-  <link rel="stylesheet" href="style.css">
-  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-  <script defer src="./app.js"></script>
-  <title>Document</title>
-</head>
-<body>
-  <!-- <script src="app.js"></script> -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.7.0/build/reset/reset-min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <script defer src="./app.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    
 
- <main class="container">
-   <!-- 1要素目 -->
-   <section class="section1">
-     <div class="header">
-       <div class="left_header">Logo</div>
-       <div class="right_header">
-         <!-- header要素 -->
-         <div class="box">Home</div>
-         <div class="box">About cebu</div>
-         <div class="box">Tourist spots</div>
-         <div class="box">Famous Delicacies</div>
-         <div class="box">Contact us</div>
-       </div>
-     </div>
-     <div class="box_word">
+  <main class="container">
+    <!-- 1要素目 -->
+    <section class="section1">
+    <div class="header">
+      <div class="left_header"><i class="fas fa-align-justify"></i></div>
+      <div class="right_header">
+        <!-- header要素 -->
+        <div class="box">Home</div>
+        <div class="box"><a href="#topic1">About cebu</a></div>
+        <div class="box"><a href="#topic4">Tourist spots</a></div>
+        <div class="box"><a href="#topic2">Famous Delicacies</a></div>
+        <div class="box"><a href="#topic3">Contact us</a></div>
+      </div>
+    </div>
+
+      <div class="viewer">
+      <ul>
+        <li class="mainImage1">
+          <div class="box_word">
+            <div class="animated fadeIn slower">Welcome!</div>
+            <div class="animated fadeIn slower">To Cebu</div>
+          </div>
+        </li>
+        <li class="mainImage2">
+          <div class="box_word">
+            <div class="animated fadeIn slower">Nice to</div>
+            <div class="animated fadeIn slower">meet you</div>
+          </div>
+        </li>
+        <li class="mainImage3">
+          <div class="box_word">
+            <div class="animated fadeIn slower">Hayato</div>
+            <div class="animated fadeIn slower">Sasano</div>
+          </div>
+        </li>
+        <li class="mainImage4">
+          <div class="box_word">
+            <div class="animated fadeIn slower">See you</div>
+            <div class="animated fadeIn slower">next time</div>
+          </div>
+        </li>
+      </ul>
+      </div>
       
-      <div class="animated fadeIn slower">Welcome!</div>
-      <div class="animated fadeIn slower">To Cebu</div>
-     </div>
-     
-   </section>
+      
+      
+    </section>
 
-   <!-- 2要素目 -->
-   <section class="section2">
-     <!-- 2要素目の左側ゾーン -->
-     <div class="sentence">
-       <div class="topic1">All About Cebu</div>
-       <div class="detail_sentence">
+    <!-- 2要素目 -->
+    <section class="section2">
+      <!-- 2要素目の左側ゾーン -->
+      <div class="sentence">
+        <div id="topic1">All About Cebu</div>
+        <div class="detail_sentence">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
         Integer euismod lorem quam, at 
         ondimentum massa suscipit sed. Vestibulum at pulvinar magna. 
@@ -50,18 +77,20 @@
         aliquet magna non, mattis ligula. Donec auctor convallis augue, 
         in imperdiet eros tincidunt vel.
       
-       </div>
-       <button class="button1" type="button">View More</button>
-     </div>
-     <!-- 2要素目の右側ゾーン -->
-     <div class="cp_imghover cp_zoomin">
-       <img src="./cebu1.jpeg" alt="">
-     </div>
-   </section>
-   
-   <!-- 3要素目 -->
-   <section class="section3">
-     <div class="bigframe">
+        </div>
+        <button class="button1" type="button">View More</button>
+      </div>
+
+      <!-- 2要素目の右側ゾーン -->
+      <div class="cp_imghover cp_zoomin">
+        <img src="./cebu1.jpeg" alt="">
+      </div>
+    </section>
+    
+    <!-- 3要素目 -->
+    <section class="section3">
+      <div id ="topic4"></div>
+      <div class="bigframe">
       <div class="img_content">
         <div class="img_box1">
           <!-- <img src="./cebu1.jpeg" alt=""> -->
@@ -94,42 +123,44 @@
         </div>
         
       </div>
-     </div>
-   </section>
+      </div>
+    </section>
 
-   <!-- 4要素目 -->
-   <section class="section4">
-     <!-- 表題 -->
-     <div class="topic2">Explore The Queen City of the South!</div>
-     <!-- 3つの写真ゾーン -->
-     <div class="frame">
-       <div class="frame_box">
-         <div class="frame_box_img1"></div>
-         <div class="frame_box_sentence">Lorem Ipsum Dolor Sit Amet, Consectetur 
+    <!-- 4要素目 -->
+    <section class="section4">
+      <!-- 表題 -->
+      <div id="topic2">Explore The Queen City of the South!</div>
+      <!-- 3つの写真ゾーン -->
+      <div class="frame">
+        <div class="frame_box">
+          <div class="frame_box_img1"></div>
+          <div class="frame_box_sentence">Lorem Ipsum Dolor Sit Amet, Consectetur 
           Adipiscing Elit. Integer Euismod Lorem Quam.
           </div>
-       </div>
-       <div class="frame_box">
+        </div>
+        <div class="frame_box">
         <div class="frame_box_img2"></div>
         <div class="frame_box_sentence">Lorem Ipsum Dolor Sit Amet, Consectetur 
           Adipiscing Elit. Integer Euismod Lorem Quam.
           </div>
-       </div>
-       <div class="frame_box">
+        </div>
+        <div class="frame_box">
         <div class="frame_box_img3"></div>
         <div class="frame_box_sentence">Lorem Ipsum Dolor Sit Amet, Consectetur 
           Adipiscing Elit. Integer Euismod Lorem Quam.
           </div>
-       </div>
-     </div>
-   </section>
+        </div>
+      </div>
+    </section>
 
-   <!-- 5つ目の要素 -->
-   <section class="section5">
-     <div class="map"></div>
-     <div class="questionnair">
-       <div class="topic3">Contact me</div>
-       <form action="" method="" name="form" class="form">
+    <!-- 5つ目の要素 -->
+    <section class="section5">
+      <!-- モーダルウィンドウ -->
+      
+      <div class="map"></div>
+      <div class="questionnair">
+        <div id="topic3">Contact me</div>
+        <form action="" method="" name="form" class="form">
         
             <div class="form_area">
                 <input type="text" name="name" size=40 placeholder="name" value="">
@@ -142,41 +173,29 @@
                 <textarea name="content" rows="5" cols="39" placeholder="message"></textarea>
             </div>
             <div class="modalBtn">submit</div>
-       </form>
-     </div>
-   </section>
- </main>
+            <div class="modal">
+              <h2 class="modalTxt">送信が完了しました</h2>
+              <div class="close">閉じる</div>
+            </div>
+        </form>
+        
+      </div>
+      <div class="overlay"></div>
+      
+    </section>
+  </main>
 
 
-  <!-- footer -->
- <footer class="footer">
-  <div class="inc_information">(c) Cebu, Philippines 2020</div>
-  <div class="icon">
-    <i class="fas fa-arrow-circle-up fa-3x"></i>
-  </div>
- </footer>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="inc_information">(c) Cebu, Philippines 2020</div>
+      <div class="icon">
+        <i class="fas fa-arrow-circle-up fa-3x"></i>
+      </div>
+    </footer>
 
 
- <!-- モーダルウィンドウ -->
- <div class="overlay"></div>
- <div class="modal">
-   <h2 class="modalTxt">モーダルを表示</h2>
-   <div class="close">閉じる</div>
- </div>
-
-<!-- 実験 -->
- <div class="viewer">
-  <ul>
-  <li><img src="./1.jpg" width="400" height="300" alt=""></li>
-  <li><img src="./2.jpg" width="400" height="300" alt=""></li>
-  <li><img src="./3.jpg" width="400" height="300" alt=""></li>
-  <li><img src="./4.jpg" width="400" height="300" alt=""></li>
   
-  </ul>
-  </div>
 
-
-
-
-</body>
+  </body>
 </html>
