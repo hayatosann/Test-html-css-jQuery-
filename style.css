@@ -1,10 +1,71 @@
+a {
+  text-decoration: none;
+  color:white;
+  }
+  
+
 /* section1 */
 .section1{
   height:100vh;
   width: 100vw;
-  background-image: url(./cebu1.jpeg);
+  /* background-image: url(./cebu1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.mainImage1{
+  height: calc(100vh - 100px) ;
+  width:100vw;
+  background-image: url(./1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+.mainImage2{
+  height: calc(100vh - 100px) ;
+  width:100vw;
+  background-image: url(./2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  z-index: 300;
+}
+.mainImage3{
+  height: calc(100vh - 100px) ;
+  width:100vw;
+  background-image: url(./3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+.mainImage4{
+  height: calc(100vh - 100px) ;
+  width:100vw;
+  background-image: url(./4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.viewer {
+  margin: 0 auto;
+  height: calc(100vh - 100px) ;
+  width:100vw;
+  text-align: left;
+  overflow: hidden;
+}
+
+.viewer ul {
+  height: calc(100vh - 100px) ;
+  width:100vw;
+  text-align: left;
+  overflow: hidden;
+  position: relative;
+}
+
+.viewer ul li {
+  top: 0;
+  left: 0;
+  height: calc(100vh - 100px) ;
+  width:100vw;
+  display: none;
+  position: absolute;
 }
 
 .header{
@@ -35,13 +96,13 @@
   color:white;
   font-size:20px;
   transition: all 0.9s;
+  
 }
 
 .box_word{
   height:calc(100vh - 140px);
   text-align:center;
   display: flex;
-  
   justify-content: center;
   flex-direction: column;
 }
@@ -72,7 +133,7 @@
   width:50vw;
 }
 
-.topic1{
+#topic1{
   font-size:60px;
   padding:20px;
   margin-top: 20px;
@@ -256,10 +317,9 @@
 }
 
 
-.topic2{
+#topic2{
   color:white;
   font-size:60px;
-  
 }
 
 .frame{
@@ -326,75 +386,11 @@
 /* section5 */
 
 .section5{
-  height:70vh;
+  height:85vh;
   width:100vw;
   display: flex;
+  position:relative;
 }
-
-.map{
-  width: 50%;
-  background-image: url(./cebu1.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.questionnair{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width:50%;
-}
-
-.topic3{
-  padding:30px;
-  font-size:60px;
-}
-
-.form{
-  padding:30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.form_area{
-  padding:10px;
-}
-
-.button2{
-  padding:20px;
-  color:rgba(255, 255, 255, 0.308);
-  background-color: black;
-  padding:10px;
-  border-radius: 20px;
-  text-align: center;
-  font-size:16px;
-  width:90%
-
-}
-
-/* //footer */
-.footer{
-  height:30vh;
-  width:100vw;
-  background-color: #333030;
-  color:white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-.inc_information{
-  font-size:25px;
-}
-
-.icon{
-  position: absolute;
-  right:10px;
-}
-
 
 .modalBtn {
   font-size: 16px;
@@ -450,28 +446,72 @@
 }
 
 
-/* 実験 */
-.viewer {
-  margin: 0 auto;
-  width: 400px;
-  height: 300px;
-  text-align: left;
-  overflow: hidden;
+.map{
+  width: 50%;
+  height:85vh;
+  background-image: url(./cebu1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.viewer ul {
-  width: 400px;
-  height: 300px;
-  text-align: left;
-  overflow: hidden;
+.questionnair{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:50%;
+  height:85vh;
+}
+
+#topic3{
+  padding:30px;
+  font-size:60px;
+  
+}
+
+.form{
+  padding:30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form_area{
+  padding:10px;
+}
+
+.button2{
+  padding:20px;
+  color:rgba(255, 255, 255, 0.308);
+  background-color: black;
+  padding:10px;
+  border-radius: 20px;
+  text-align: center;
+  font-size:16px;
+  width:90%
+
+}
+
+/* //footer */
+.footer{
+  height:15vh;
+  width:100vw;
+  background-color: #333030;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
 }
 
-.viewer ul li {
-  top: 0;
-  left: 0;
-  width: 400px;
-  height: 300px;
-  display: none;
-  position: absolute;
+.inc_information{
+  font-size:25px;
 }
+
+.icon{
+  position: absolute;
+  right:10px;
+}
+
+
+
