@@ -4,6 +4,7 @@ a {
   }
   
 
+
 /* section1 */
 .section1{
   height:100vh;
@@ -322,11 +323,14 @@ a {
   color:white;
   font-size:40px;
   margin-bottom:50px;
-  
+  text-align: center;
 }
 
 .frame{
   display: flex;
+  height: 80%;
+  width: 100%;
+  justify-content: center;
 }
 
 .frame_box{
@@ -335,7 +339,8 @@ a {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  padding:10px;
+  /* padding:10px; */
+  margin:25px;
 }
 
 .frame_box_sentence{
@@ -350,8 +355,8 @@ a {
   background-image: url(./cebu1.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 260px;
-  width: 250px;
+  height: 40%;
+  width: 100%;
   transition: all 0.5s;
 }
 
@@ -364,8 +369,8 @@ a {
   background-image: url(./cebu1.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 260px;
-  width: 250px;
+  height: 40%;
+  width: 100%;
   transition: all 0.5s;
 }
 .frame_box_img2:hover {
@@ -377,8 +382,8 @@ a {
   background-image: url(./cebu1.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 260px;
-  width: 250px;
+  height: 40%;
+  width: 100%;
   transition: all 0.5s;
 }
 .frame_box_img3:hover {
