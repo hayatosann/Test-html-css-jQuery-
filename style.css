@@ -460,7 +460,19 @@ a {
   background-image: url(./cebu1.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
+.fadein_text,
+.fadein_text span {
+  opacity: 0;
+  color:white;
+  font-size:30px;
+  width:80%;
+
+}
+
 
 .questionnair{
   display: flex;
@@ -520,6 +532,7 @@ a {
   position: absolute;
   right:10px;
 }
+
 
 
 
